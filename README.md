@@ -1,4 +1,4 @@
-# Identification-of-DEGs-using-DESeq2
++ # Identification-of-DEGs-using-DESeq2
 + For my masters project I utilizes the DESeq2 package to perform differential gene expression analysis on RNA-seq data. It reads count data and metadata from
 + CSV files, creates a DESeqDataSet object, and then uses DESeq2 functions to identify significant genes based on log2 fold change and p-values. The code further
 + subsets the significant genes into upregulated and downregulated categories, counts the number of genes in each category, and writes the results to CSV files.
